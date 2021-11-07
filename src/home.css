@@ -1,0 +1,55 @@
+.bodyMain{
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.sidebar1{
+    background-color: black;
+    flex: 0.2;
+    height: 100vh;
+
+    
+
+}
+.sectionsTitre{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.titres{
+    
+    margin-left: 10px;
+    color: white;
+  
+}
+.titre>h2:hover{
+    text-decoration: underline;
+}
+.body1{
+   flex: 0.8;
+}
+.bonsoir{
+    padding: 10px;
+    
+}
+.footer1{
+    height: 60px;
+    
+}
+.row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.player1{
+    display: flex;
+    /* height: 100vh; */
+    background: linear-gradient(90deg, rgba(34,32,35,0.8858893899356618) 0%, rgba(26,62,199,1) 0%, rgba(41,40,59,1) 0%, rgba(55,54,68,1) 29%, rgba(77,74,81,1) 75%);
+    
+}
+
+.header{
+    padding: 20px;
+}
